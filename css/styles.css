@@ -1,0 +1,235 @@
+body {
+    font-family: 'Montserrat-Bold';
+}
+
+
+h2 {
+    text-align: center;
+}
+
+/* nav section */
+@media (max-width:700px) {
+    body {
+        text-align: center;
+    }
+
+    #navbar {
+        width: 100%;
+    }
+
+    .main-image {
+        width: 100%;
+    }
+}
+
+.nav-item {
+    padding: 0px 15px;
+    font-size: 18px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #395B64;
+    color: #fff;
+}
+
+.nav-headline {
+    font-family: 'Montserrat';
+    font-style: italic;
+}
+
+/* INTRO SECTION */
+#intro-section {
+    text-align: center;
+    padding: 50px;
+    margin-top: -20px;
+}
+
+
+/* HOME SECTION */
+
+.colored-section {
+    background-color: #2C3639;
+}
+
+.main-image {
+    object-fit: cover;
+    height: auto;
+}
+
+
+.home-heading {
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* animation included */
+.ml {
+    font-size: 2.7rem;
+    font-style: italic;
+    display: flex;
+    color: white;
+    animation: animate 5s linear infinite;
+    overflow: hidden;
+}
+
+
+@keyframes animate {
+
+    0%,
+    10%,
+    100% {
+        color: white;
+        box-shadow: none;
+        width: 0
+    }
+
+    70%,
+    90% {
+        color: white;
+        width: 100%
+    }
+}
+
+
+
+/* INTRO SECTION */
+#intro-section {
+    margin-top: -10px;
+}
+
+
+/* From the heading ABOUT */
+#about-section {
+    margin-top: -20px;
+}
+
+.image {
+    position: relative;
+    float: left;
+    margin-right: 25px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.heading {
+    color: #395B64;
+}
+
+@media all and (max-width:1000px) {
+    .image {
+        border-radius: 10px;
+        padding-left: 0px;
+    }
+
+    .heading {
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+}
+
+.list-1 {
+    list-style-type: '> ';
+    display: inline-block;
+    line-height: 3;
+}
+
+.list-2 {
+    list-style-type: '> ';
+    display: inline-block;
+    line-height: 3;
+}
+
+
+/* Skills Section */
+#skills-section {
+    padding: 50px;
+    margin-top: -10px;
+}
+
+.skills-para {
+    text-align: center;
+}
+
+.list-3 {
+    margin-left: 300px;
+    list-style-type: none;
+    display: inline-block;
+    line-height: 2;
+}
+
+.list-4 {
+    margin-left: 200px;
+    list-style-type: none;
+    display: inline-block;
+    line-height: 2;
+}
+
+.parent-list{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    padding:10px 15px
+}
+
+
+@media  (max-width: 1024px) {
+    .list-3 {
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: auto;
+    }
+
+    .list-4 {
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: auto;
+    }
+}
+
+/* Portfolio Section */
+#portfolio-section {
+    padding: 50px;
+}
+
+.certificate-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+@media (max-width: 600px) {
+    .certificate-img {
+        width: 100%
+    }
+}
+
+/* Contact Section */
+#contact-section {
+    padding: 50px;
+}
+
+
+/* Footer Section */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #2C3639;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: white;
+}
