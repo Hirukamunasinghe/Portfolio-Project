@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>👨‍💻Personal Website</title>
+  <script src="https://kit.fontawesome.com/5a1c960b5e.js" crossorigin="anonymous"></script>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +40,7 @@
   <!-- NAVBAR SECTION -->
   <section id="nav-section">
     <nav class="nav fill navbar navbar-expand-lg navbar-dark bg-black nav" id="navbar">
-      <a class="navbar-brand"><span class="nav-headline">HIRUKA PORTFILIO</span></a>
+      <a class="navbar-brand px-3"><span class="nav-headline">HIRUKA PORTFILIO</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -67,9 +68,14 @@
   </section>
   <!-- HOME SECTION -->
   <section id="home-section" class="colored-section">
-    <img src="images/image2n.png" class="main-image">
-    <h2 class="home-heading">Hello! I'm Hiruka Munasinghe,<br><span class="ml mac"> MACHINE LEARNING ENGINEER</span>
-    </h2>
+    <div class="landing-image d-flex align-items-center justify-content-center">
+      <div class="typewriter">
+        <h1>Hello I'm Hiruka. Welcome To My Portfolio</h1>
+        <p class="subtitle mt-3">Python Expert</p>
+      </div>
+      <div class="layer">
+      </div>
+    </div>
   </section>
 
   <!-- INTRO SECTION -->
@@ -115,42 +121,105 @@
     </div>
   </div>
   </section>
-
-  <!-- SKILLS SECTION -->
-  <section id="skills-section"></section>
-  <h2>SKILLS</h2>
-  <p class="skills-para">A creative Full-Stack Developer who has experience in technologies such as Machince Learning,
-    Web Development and Mobile Development</p>
-  <div class="parent-list">
-    <div class="child-1">
-      <ul class="list-3">
-        <li><img src="images/python.png"> Python</li>
-        <li><img src="images/java.png"> Java</li>
-        <li><img src="images/javascript.png"> Javascript</li>
-        <li><img src="images/html.png"> HTML, <img src="images/css.png"> CSS</li>
-        <li><img src="images/react.png"> REACT</li>
-      </ul>
+  <!--Skills-->
+  <section id="skills-section">
+    <h2>SKILLS</h2>
+    <p class="skills-para">A creative Full-Stack Developer who has experience in technologies such as Machince Learning,
+      Web Development and Mobile Development</p>
+    <div class="skill-card-row">
+      <div class="p-card skill-card">
+        <i class="fa-brands fa-python"></i>
+        <p class="m-0">Python Programming</p>
+      </div>
+      <div class="p-card skill-card">
+        <i class="fa-brands fa-python"></i>
+        <p class="m-0">Python Programming</p>
+      </div>
+      <div class="p-card skill-card">
+        <img src="images/python.png">
+        <p class="m-0">Python Programming</p>
+      </div>
+      <div class="p-card skill-card">
+        <img src="images/html.png">
+        <p class="m-0">Python Programming</p>
+      </div>
+      <div class="p-card skill-card">
+        <img src="images/python.png">
+        <p class="m-0">Python Programming</p>
+      </div>
+      <div class="p-card skill-card">
+        <img src="images/python.png">
+        <p class="m-0">Python Programming</p>
+      </div>
+      <div class="p-card skill-card">
+        <img src="images/python.png">
+        <p class="m-0">Python Programming</p>
+      </div>
+      <div class="p-card skill-card">
+        <img src="images/python.png">
+        <p class="m-0">Python Programming</p>
+      </div>
+      <div class="p-card skill-card">
+        <img src="images/python.png">
+        <p class="m-0">Python Programming</p>
+      </div>
+      <div class="p-card skill-card">
+        <img src="images/python.png">
+        <p class="m-0">Python Programming</p>
+      </div>
     </div>
-
-    <div class="child-2">
-      <ul class="list-4">
-        <li><img src="images/xd.png"> Adobe XD</li>
-        <li><img src="images/figma.png"> Figma</li>
-        <li><img src="images/wix.png"> Wix</li>
-        <li><img src="images/swift.png">Swift</li>
-        <li><img src="images/flask.png">Flask</li>
-      </ul>
-    </div>
-  </div>
   </section>
 
   <!-- PORTFOLIO SECTION -->
   <section id="portfolio-section">
     <h2>PORTFOLIO</h2>
-    <div>
-      <a href="https://www.udemy.com/certificate/UC-2a2c8b36-2de1-4797-bc03-79efb4850772/">
+    <!--Use this rows to add certificates-->
+    <div class="p-card-row py-3">
+      <div class="p-card">
         <img src="images/certificate.png" class="certificate-img">
-      </a>
+        <div class="p-cerft-details">
+          <h5>Java Certification</h5>
+          <a class="btn btn-info p-view-btn" href="https://www.udemy.com/certificate/UC-2a2c8b36-2de1-4797-bc03-79efb4850772/">View</a>
+        </div>
+      </div>
+      <div class="p-card">
+        <img src="images/certificate.png" class="certificate-img">
+        <div class="p-cerft-details">
+          <h5>Java Certification</h5>
+          <a class="btn btn-info p-view-btn">View</a>
+        </div>
+      </div>
+      <div class="p-card">
+        <img src="images/certificate.png" class="certificate-img">
+        <div class="p-cerft-details">
+          <h5>Java Certification</h5>
+          <a class="btn btn-info p-view-btn">View</a>
+        </div>
+      </div>
+    </div>
+    <!--Use this rows to add certificates-->
+    <div class="p-card-row py-3">
+      <div class="p-card">
+        <img src="images/certificate.png" class="certificate-img">
+        <div class="p-cerft-details">
+          <h5>Java Certification</h5>
+          <a class="btn btn-info p-view-btn" href="https://www.udemy.com/certificate/UC-2a2c8b36-2de1-4797-bc03-79efb4850772/">View</a>
+        </div>
+      </div>
+      <div class="p-card">
+        <img src="images/certificate.png" class="certificate-img">
+        <div class="p-cerft-details">
+          <h5>Java Certification</h5>
+          <a class="btn btn-info p-view-btn">View</a>
+        </div>
+      </div>
+      <div class="p-card">
+        <img src="images/certificate.png" class="certificate-img">
+        <div class="p-cerft-details">
+          <h5>Java Certification</h5>
+          <a class="btn btn-info p-view-btn">View</a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -164,12 +233,12 @@
       <button type="submit">Send</button>
     </form>
   </section>
-  <footer id="footer">
+  <!-- <footer id="footer">
     <a href="https://www.facebook.com/profile.php?id=100081236807984" class="social-icon fa-brands fa-square-facebook"></i></a>
     <a href="https://twitter.com/Hiruka1299"><i class="social-icon fa-brands fa-twitter"></i></a>
     <a href="https://www.instagram.com/hiruka_mun/?hl=en"><i class="social-icon fa-brands fa-instagram"></i></a>
     <a href="https://github.com/Hirukamunasinghe"><i class=" social-icon fa-brands fa-github"></i></a>
-  </footer>
+  </footer> -->
 </body>
 
 </html>

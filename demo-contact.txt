@@ -49,3 +49,40 @@
       </div>
     </div>
   </section>
+
+
+  
+  <!-- SKILLS SECTION -->
+  <section id="skills-section"></section>
+  <h2>SKILLS</h2>
+  <p class="skills-para">A creative Full-Stack Developer who has experience in technologies such as Machince Learning,
+    Web Development and Mobile Development</p>
+  <div class="parent-list">
+    <div class="child-1">
+      <ul class="list-3">
+        <li><img src="images/python.png"> Python</li>
+        <li><img src="images/java.png"> Java</li>
+        <li><img src="images/javascript.png"> Javascript</li>
+        <li><img src="images/html.png"> HTML, <img src="images/css.png"> CSS</li>
+        <li><img src="images/react.png"> REACT</li>
+      </ul>
+    </div>
+
+    <div class="child-2">
+      <ul class="list-4">
+        <li><img src="images/xd.png"> Adobe XD</li>
+        <li><img src="images/figma.png"> Figma</li>
+        <li><img src="images/wix.png"> Wix</li>
+        <li><img src="images/swift.png">Swift</li>
+        <li><img src="images/flask.png">Flask</li>
+      </ul>
+    </div>
+  </div>
+  </section>
+
+
+  <section id="home-section" class="colored-section">
+    <img src="images/image2n.png" class="main-image">
+    <h2 class="home-heading">Hello! I'm Hiruka Munasinghe,<br><span class="ml mac"> MACHINE LEARNING ENGINEER</span>
+    </h2>
+  </section>
