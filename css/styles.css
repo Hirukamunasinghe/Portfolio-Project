@@ -246,7 +246,7 @@ h2 {
     color: white;
 }
 
-
+/* Skills section */
 .p-card-row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -298,6 +298,49 @@ h2 {
 .skill-card-row img {
     width: 20px;
     height: 20px;
+}
+
+.skills-list{
+    list-style-type: none;
+}
+
+@media (max-width: 900px){
+
+    #home-section{
+        width: 100%;
+    }
+
+    #navbar{
+        width: 100%;
+    }
+
+    .skill-card-row{
+        display: inline-block;
+        margin: auto;
+    }
+
+    .skill-card{
+        margin-bottom: 10px;
+    }
+
+
+
+    .p-card-row{
+        display: inline-block;
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .p-card{
+        margin-bottom: 10px;
+    }
+
+    #contact-section{
+        text-align: center;
+        display: block;
+    }
+
 }
 
 #skills-section {
@@ -365,3 +408,4 @@ h2 {
     z-index: 99999;
     width: 100%;
 }
+
