@@ -304,10 +304,15 @@ h2 {
     list-style-type: none;
 }
 
+/* RESPONSIVE SECTION */
 @media (max-width: 900px){
 
-    #home-section{
-        width: 100%;
+    .home-section-class{
+        width:100%;
+    }
+
+    .main-pic{
+        width:100%
     }
 
     #navbar{
@@ -316,14 +321,14 @@ h2 {
 
     .skill-card-row{
         display: inline-block;
-        margin: auto;
+
     }
 
     .skill-card{
         margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: auto;
     }
-
-
 
     .p-card-row{
         display: inline-block;
@@ -408,4 +413,3 @@ h2 {
     z-index: 99999;
     width: 100%;
 }
-
