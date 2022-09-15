@@ -413,3 +413,13 @@ h2 {
     z-index: 99999;
     width: 100%;
 }
+
+/* CONTACT SECTION */
+#contact-section{
+    text-align: center;
+}
+
+/* FOOTER SECTION */
+.icon{
+    padding: 15px;
+}
